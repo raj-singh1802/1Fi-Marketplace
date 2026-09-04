@@ -5,6 +5,7 @@ import Shop from './pages/Shop';
 import TopBrandsPlaceholder from './pages/TopBrandsPlaceholder';
 import NearbyStoresPlaceholder from './pages/NearbyStoresPlaceholder';
 import Marketplace from './pages/Marketplace';
+import ProductDetail from './pages/ProductDetail';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/shop/top-brands" element={<TopBrandsPlaceholder />} />
         <Route path="/shop/nearby-stores" element={<NearbyStoresPlaceholder />} />
         <Route path="/marketplace" element={<Marketplace />} />
+        <Route path="/products/:slug" element={<ProductDetail />} />
       </Routes>
     </AppShell>
   );
