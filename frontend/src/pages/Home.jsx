@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="space-y-6">
       {/* 1Fi Purple Hero Card */}
-      <div className="bg-gradient-to-br from-purple-600 via-purple-700 to-purple-900 rounded-3xl p-6 sm:p-8 text-white shadow-xl relative overflow-hidden">
+      <div className="bg-gradient-to-br from-purple-600 via-purple-700 to-purple-900 rounded-3xl p-5 sm:p-6 text-white shadow-xl relative overflow-hidden">
         {/* Subtle background glow element */}
         <div className="absolute -top-12 -right-12 w-48 h-48 bg-white/10 rounded-full blur-2xl pointer-events-none" />
 
@@ -13,7 +13,7 @@ export default function Home() {
             Limit Available
           </span>
           <div>
-            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight">₹1,56,091</h2>
+            <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight">₹1,56,091</h2>
             <p className="text-sm text-purple-200 mt-1 font-medium">Remaining to spend</p>
           </div>
           <div className="pt-2">

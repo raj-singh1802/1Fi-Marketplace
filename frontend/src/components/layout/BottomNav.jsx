@@ -7,7 +7,7 @@ const navItems = [
 
 export default function BottomNav() {
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 flex justify-around py-2 md:hidden z-50 shadow-lg">
+    <nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 flex justify-around py-2 pb-[calc(0.5rem+env(safe-area-inset-bottom))] md:hidden z-50 shadow-lg">
       {navItems.map((item) => (
         <NavLink
           key={item.to}

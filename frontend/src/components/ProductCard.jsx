@@ -18,8 +18,8 @@ export default function ProductCard({ product }) {
                 )}
             </div>
             <div>
-                <p className="text-xs text-gray-400 uppercase tracking-wide">{product.brand}</p>
-                <h3 className="font-semibold text-gray-800">{product.name}</h3>
+                <p className="text-xs text-gray-400 uppercase tracking-wide truncate">{product.brand}</p>
+                <h3 className="font-semibold text-gray-800 truncate">{product.name}</h3>
                 <p className="text-purple-700 font-bold mt-1">
                     ₹{product.minPrice.toLocaleString('en-IN')}
                 </p>
