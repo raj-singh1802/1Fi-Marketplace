@@ -7,6 +7,8 @@ A full-stack web application built for the **1Fi SDE1 Assignment** — a marketp
 
 > Note: the backend runs on Render's free tier, which spins down after inactivity. The first request after idle time may take 30–50 seconds to respond — this is expected, not a bug.
 
+> **A note on scope:** since I didn't have access to 1Fi's existing app codebase, I built this as a standalone full-stack implementation — matching the app's design system (purple theme, card layout, navigation) from the reference screenshots provided, using React, Node/Express, and PostgreSQL. The Marketplace flow, EMI logic, and UI consistency follow the assignment brief; the underlying stack is my own rather than an extension of 1Fi's real codebase.
+
 ---
 
 ## Features
@@ -232,9 +234,9 @@ Frontend runs at `http://localhost:5173`.
 
 ---
 
-## Images
+## Screenshots
 
-![alt text](image.png) 
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
+![alt text](<Readme Images/image.png>)
+![alt text](<Readme Images/image-1.png>)
+![alt text](<Readme Images/image-2.png>)
+![alt text](<Readme Images/image-3.png>)
