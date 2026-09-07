@@ -55,8 +55,8 @@ async function main() {
           },
           {
             label: '512GB · Deep Blue',
-            mrp: 154900,
-            price: 145900,
+            mrp: 164999,
+            price: 154999,
             imageUrl: 'https://i-system.gr/storage/i3commerce/images/i/p/iphone_17_pro_max_deep_blue_2_up_screen_usen_img_03.jpg',
             emiPlans: {
               create: [
