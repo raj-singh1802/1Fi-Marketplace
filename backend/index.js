@@ -5,7 +5,14 @@ require('dotenv').config();
 const productsRouter = require('./src/routes/products.routes');
 
 const app = express();
-app.use(cors());
+const allowedOrigins = [
+  'http://localhost:5173',
+  process.env.FRONTEND_URL,
+].filter(Boolean); // filter(Boolean) drops FRONTEND_URL if it's undefined locally
+
+app.use(cors({
+  origin: allowedOrigins,
+}));
 app.use(express.json());
 
 const PORT = process.env.PORT || 4000;
