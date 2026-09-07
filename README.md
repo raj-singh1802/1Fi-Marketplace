@@ -11,6 +11,13 @@ A full-stack web application built for the **1Fi SDE1 Assignment** — a marketp
 
 ---
 
+## Submissions
+
+**Video Walkthrough** : https://drive.google.com/file/d/1TRoQLyJ5VQFSc0EOstStgDwK4MAtkrCU/view?usp=sharing
+**Github Repo** : https://github.com/raj-singh1802/1Fi-Marketplace
+
+---
+
 ## Features
 
 - Product listing (`1Fi Marketplace`) with 3 products, each with 2 variants
